@@ -5,6 +5,7 @@
   box-sizing: border-box;
   list-style: none;
   font-family: 'Georama', sans-serif;
+  color: #313131;
 }
 
 body {
@@ -73,7 +74,7 @@ button, #lista-tarefas li {
 }
 
 #apaga-tudo {
-  background-color: red;
+  background-color: rgb(255, 0, 0);
   width: 30px;
   border-radius: 12px;
   font-weight: 700;
@@ -89,6 +90,15 @@ button, #lista-tarefas li {
   background-color: #00A6FB;
   width: 100px;
   border-radius: 15px;
+}
+
+#mover-cima, #mover-baixo {
+  background-color: #4F1A74;
+  color: rgb(230, 230, 230);
+  width: 30px;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 12px;
 }
 
 .selected {
