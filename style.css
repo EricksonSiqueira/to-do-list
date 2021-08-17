@@ -20,6 +20,9 @@ main {
 button {
   border: none;
 }
+button, #lista-tarefas li {
+  cursor: pointer;
+} 
 
 #frame {
   max-width: 800px;
