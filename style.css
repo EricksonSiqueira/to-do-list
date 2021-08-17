@@ -84,6 +84,13 @@ button, #lista-tarefas li {
   width: 120px;
   border-radius: 15px;
 }
+
+#salvar-tarefas {
+  background-color: #00A6FB;
+  width: 100px;
+  border-radius: 15px;
+}
+
 .selected {
   color: rgb(243, 240, 59);
 }
