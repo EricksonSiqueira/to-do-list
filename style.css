@@ -36,6 +36,11 @@ main {
   font-style: italic;
   margin-bottom: 25px;
 }
+#texto-tarefa{
+  min-width: 650px;
+  min-height: 30px;
+  border-radius: 5px;
+}
 
 .completed {
   text-decoration: line-through;
