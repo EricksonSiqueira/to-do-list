@@ -47,12 +47,25 @@ button {
 }
 
 #criar-tarefa {
-  background-color: #07cc7d;
+  background-color:#07cc7d;
   width: 80px;
   height: 30px;
   border-radius: 15px;
 }
 
+#lista-tarefas {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#lista-tarefas li {
+  border-radius: 10px;
+  padding-left: 5px;
+}
+.selected {
+  color: rgb(243, 240, 59);
+}
 .completed {
   text-decoration: line-through;
 }
