@@ -65,8 +65,14 @@ button {
 }
 #bottom-buttons button{
   height: 30px;
-  background-color: #07cc7d;
   margin: 10px 5px;
+}
+#apaga-tudo {
+  background-color: red;
+  width: 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
 }
 .selected {
   color: rgb(243, 240, 59);
