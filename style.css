@@ -26,7 +26,10 @@ button {
 }
 button, #lista-tarefas li {
   cursor: pointer;
-} 
+}
+button:hover {
+  transition: all 150ms ease-in-out;
+}
 
 #frame {
   max-width: 800px;
@@ -59,6 +62,9 @@ button, #lista-tarefas li {
   height: 30px;
   border-radius: 15px;
 }
+#criar-tarefa:hover {
+  background-color:#06b36e;
+}
 
 #lista-tarefas {
   text-align: left;
@@ -82,17 +88,28 @@ button, #lista-tarefas li {
   border-radius: 12px;
   font-weight: 700;
 }
+#apaga-tudo:hover {
+  background-color: rgb(221, 0, 0);
+
+}
 
 #remover-finalizados {
   background-color: rgb(255, 123, 0);
   width: 130px;
   border-radius: 15px;
 }
+#remover-finalizados:hover {
+  background-color: rgb(223, 108, 0);
+}
 
 #salvar-tarefas {
   background-color: #00A6FB;
   width: 40px;
   border-radius: 15px;
+}
+#salvar-tarefas:hover {
+  background-color: #009ae7;
+
 }
 
 #mover-cima, #mover-baixo {
@@ -103,12 +120,21 @@ button, #lista-tarefas li {
   font-weight: 700;
   border-radius: 12px;
 }
+#mover-cima:hover, #mover-baixo:hover {
+  background-color: #632192;
+
+} 
 
 #remover-selecionado {
   background-color: rgb(201, 201, 201);
   width: 40px;
   border-radius: 15px;
 }
+#remover-selecionado:hover {
+  background-color: rgb(180, 180, 180);
+
+}
+
 
 #blur {
   background-color: rgba(0, 0, 0, 0.40);

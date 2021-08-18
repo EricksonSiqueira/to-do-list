@@ -7,6 +7,7 @@ const upButton = document.getElementById('mover-cima');
 const downButton = document.getElementById('mover-baixo');
 const removeSelectedButton = document.getElementById('remover-selecionado');
 const selectedColor = 'rgb(128, 128, 128)';
+const delayInMiliseconds = 200;
 
 function addTask() {
   const inputText = document.getElementById('texto-tarefa');
