@@ -145,8 +145,10 @@ button:hover {
 
 .selected {
   color: rgb(243, 240, 59);
+  transition: all 350ms ease-in-out;
 }
 .completed {
   text-decoration: line-through;
+  transition: all 350ms ease-in-out;
 }
 
