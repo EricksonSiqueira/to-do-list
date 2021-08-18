@@ -9,7 +9,9 @@
 }
 
 body {
-  background-color: #988AA8;
+  background: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 main {
@@ -106,6 +108,13 @@ button, #lista-tarefas li {
   background-color: rgb(247, 3, 3);
   width: 130px;
   border-radius: 15px;
+}
+
+#blur {
+  background-color: rgba(0, 0, 0, 0.40);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
 }
 
 .selected {
