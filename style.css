@@ -78,20 +78,20 @@ button, #lista-tarefas li {
 
 #apaga-tudo {
   background-color: rgb(255, 0, 0);
-  width: 30px;
+  width: 120px;
   border-radius: 12px;
   font-weight: 700;
 }
 
 #remover-finalizados {
   background-color: rgb(255, 123, 0);
-  width: 120px;
+  width: 130px;
   border-radius: 15px;
 }
 
 #salvar-tarefas {
   background-color: #00A6FB;
-  width: 100px;
+  width: 40px;
   border-radius: 15px;
 }
 
@@ -105,8 +105,8 @@ button, #lista-tarefas li {
 }
 
 #remover-selecionado {
-  background-color: rgb(247, 3, 3);
-  width: 130px;
+  background-color: rgb(201, 201, 201);
+  width: 40px;
   border-radius: 15px;
 }
 
